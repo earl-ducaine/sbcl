@@ -52,7 +52,7 @@ be regarded as such a byte stream.
 A Fasload file may be regarded as a human-readable prefix followed by
 code in a funny little language. When interpreted, this code will
 cause the construction of the encoded data structures. The virtual
-machine which interprets this code has a @{stack} and a @emp{table},
+machine which interprets this code has a @emph{stack} and a @emph{table},
 both initially empty. The table may be thought of as an expandable
 register file; it is used to remember quantities which are needed
 more than once. The elements of both the stack and the table are
